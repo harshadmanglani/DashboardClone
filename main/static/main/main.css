@@ -1,0 +1,23 @@
+  
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 5rem;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  h1{
+    color: chocolate;
+    padding-left: 50px;
+  }
+  h2, h3, h4, h5, h6 {
+    color: #444444;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+  }
+  form{
+    padding-top: 50px;
+  }

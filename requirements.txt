@@ -1,0 +1,5 @@
+django-storages[azure]
+django
+django-mssql-backend
+django_widget_tweaks
+pyodbc

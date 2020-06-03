@@ -1,0 +1,34 @@
+{%load static%}
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'main/main.css'%}">
+    <title>Fraud Insurance Dashboard</title>
+</head>
+<h1>Welcome to the business dashboard!</h1>
+<h2>Powered by MICROSOFT POWER BI</h2>
+<hr>
+
+<body>
+    <iframe width="1450" height="900"
+        src="https://app.powerbi.com/reportEmbed?reportId=cc85f774-dc10-4837-a171-88b89d9fdfa7&autoAuth=true&ctid=84c31ca0-ac3b-4eae-ad11-519d80233e6f&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXdlc3QtdXMtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D"
+        frameborder="0" allowFullScreen="true"></iframe>
+    <br>
+
+    <form action="/admin">
+        <input type="submit" value="Inspect suspicious claims" />
+    </form>
+    <form action="/input">
+        <input type="submit" value="Input claim data" />
+    </form>
+</body>
+
+</html>
